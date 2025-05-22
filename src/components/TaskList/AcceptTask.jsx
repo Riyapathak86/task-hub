@@ -1,4 +1,3 @@
-
 import { useContext, useState } from "react";
 import { AuthContext } from "../../Context/AuthContext";
 
@@ -6,18 +5,20 @@ const AcceptTask = ({ task }) => {
   const [bgColor, setBgColor] = useState("green");
   const [showButton, setShowButton] = useState(true);
   const [showButton2, setShowButton2] = useState(true);
-  const { setFailedCount, setCompletedCount, setnewTaskCount } = useContext(AuthContext);
+  const { setFailedCount, setCompletedCount, setnewTaskCount } =
+    useContext(AuthContext);
 
   const handleMarkCompleted = () => {
     setBgColor("orange");
-    setCompletedCount(prev => prev + 1);
+    setCompletedCount((prev) => prev + 1);
+    setFailedCount((prev) => (prev > 0 ? prev - 1 : 0));
     setShowButton(false);
   };
 
   const handleFailCompleted = () => {
     setBgColor("blue");
-    setFailedCount(prev => prev + 1);
-   setCompletedCount(prev => (prev > 0 ? prev - 1 : 0));
+    setFailedCount((prev) => prev + 1);
+    setCompletedCount((prev) => (prev > 0 ? prev - 1 : 0));
     setShowButton2(false);
   };
 
