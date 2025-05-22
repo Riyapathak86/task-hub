@@ -37,15 +37,11 @@ Track task status across New, Accepted, Completed, and Failed sections.
 💾 LocalStorage for data persistence (no backend)
 
 🔑 Login Credentials
-👑 Admin Login:
-Email	Password
-admin@example.com	123
-
 👥 Employee and Admin Logins:
 
 | Name       | Email                 | Password |
 |------------|-----------------------|----------|
-| Admin      |admin@example.com	     |123 
+| 👑Admin      |admin@example.com	     |123 
 Employee 1 | employee1@example.com  | 123      |
 | Employee 2 | employee2@example.com  | 123      |
 | Employee 3 | employee3@example.com  | 123      |
