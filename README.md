@@ -41,13 +41,17 @@ Track task status across New, Accepted, Completed, and Failed sections.
 Email	Password
 admin@example.com	123
 
-👥 Employee Logins:
-Name	Email	Password
-Employee 1	employee2@example.com	123
-Employee 2	employee2@example.com	123
-Employee 3	employee3@example.com	123
-Employee 4	employee4@example.com	123
-Employee 5	employee5@example.com	123
+👥 Employee and Admin Logins:
+
+| Name       | Email                 | Password |
+|------------|-----------------------|----------|
+| Admin      |admin@example.com	     |123 
+Employee 1 | employee1@example.com  | 123      |
+| Employee 2 | employee2@example.com  | 123      |
+| Employee 3 | employee3@example.com  | 123      |
+| Employee 4 | employee4@example.com  | 123      |
+| Employee 5 | employee5@example.com  | 123      |
+
 
 📋 How to Use
 Login with Admin or Employee email/password.
