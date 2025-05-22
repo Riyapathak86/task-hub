@@ -7,8 +7,7 @@ const NewTask = ({ task }) => {
   const handleAccept = () => {
     setBgColor("green");
     setaccepted((prev) => prev + 1);
-    setnewTaskCount((prev) => prev - 1);
-
+    setnewTaskCount((prev) => prev -1);
     setShowButton(false);
   };
 

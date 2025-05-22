@@ -5,20 +5,20 @@ const AcceptTask = ({ task }) => {
   const [bgColor, setBgColor] = useState("green");
   const [showButton, setShowButton] = useState(true);
   const [showButton2, setShowButton2] = useState(true);
-  const { setFailedCount, setCompletedCount, setnewTaskCount } =
+  const { setFailedCount, setCompletedCount, setnewTaskCount ,  setaccepted} =
     useContext(AuthContext);
 
   const handleMarkCompleted = () => {
     setBgColor("orange");
     setCompletedCount((prev) => prev + 1);
-    setFailedCount((prev) => (prev > 0 ? prev - 1 : 0));
+  setaccepted((prev) => (prev > 0 ? prev - 1 : 0)); 
     setShowButton(false);
   };
 
   const handleFailCompleted = () => {
     setBgColor("blue");
     setFailedCount((prev) => prev + 1);
-    setCompletedCount((prev) => (prev > 0 ? prev - 1 : 0));
+    setCompletedCount((prev) => prev - 1 );
     setShowButton2(false);
   };
 
