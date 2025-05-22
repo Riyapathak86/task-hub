@@ -26,7 +26,7 @@ Task-hub is a responsive and dynamic React.js task management application tailor
 | Role     | Email            | Password |
 | -------- | ---------------- | -------- |
 | Admin    | admin@example.com | 123      |
-| Employee | e@e.com          | 123      |
+| Employee |  employee1@example.com | 123      |
 | Employee | employee2@example.com | 123  |
 | Employee | employee3@example.com | 123  |
 | Employee | employee4@example.com | 123  |
@@ -47,11 +47,7 @@ Task-hub is a responsive and dynamic React.js task management application tailor
 
 ---
 
-## 🖥️ Live Demo
 
-Try the live project here: [https://task-management-system-seven-gamma.vercel.app/](https://task-management-system-seven-gamma.vercel.app/)
-
----
 
 ## 📢 Notes
 
