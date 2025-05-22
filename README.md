@@ -53,33 +53,32 @@ Employee 1 | employee1@example.com  | 123      |
 Login with Admin or Employee email/password.
 
 If Admin:
-
 You will be redirected to the Admin Dashboard.
-
 Assign tasks to employees by selecting their name and filling in task details.
 
+
 If Employee:
-
 You will be redirected to the Employee Dashboard.
-
 View your assigned tasks under the New tab.
-
 Accept, Complete, or Fail your tasks based on progress.
-
 To logout, click the Logout button. After logout, you will be redirected to the Login Dashboard.
-
 All task updates and status changes are automatically saved using LocalStorage, ensuring no data loss on page reload.
+
+
 
 🖥️ Live Demo
 🚀 Live Project Link
 https://task-hub-smoky.vercel.app/
 
+
+
+
 💬 Notes
 No React Router used; page switching is handled using component-based conditional rendering.
-
 Responsive design works perfectly across desktop, tablet, and mobile screens using Bootstrap and custom CSS.
-
 Data persistence handled through LocalStorage, so data remains even after refreshing.
+
+
 
 🙌 Special Thanks
 Thanks for checking out this project!
