@@ -1,4 +1,9 @@
 # task-hub
+
+🖥️ Live Demo
+🚀 Live Project Link
+https://task-hub-smoky.vercel.app/
+
 Task Hub is a responsive and dynamic React.js task management application built with Bootstrap and custom CSS. Designed for both Admins and Employees, this system enables task assignment, new task creation, status updates, and real-time tracking — all managed through efficient state management and LocalStorage persistence, delivering a fully responsive and feature-rich frontend experience.
 
 
@@ -66,9 +71,7 @@ All task updates and status changes are automatically saved using LocalStorage, 
 
 
 
-🖥️ Live Demo
-🚀 Live Project Link
-https://task-hub-smoky.vercel.app/
+
 
 
 
